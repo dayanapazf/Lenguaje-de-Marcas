@@ -1,0 +1,17 @@
+body {
+    width: 80%;
+    margin: auto;
+}
+
+#div1 {
+    width: 50%;
+    height: 200px;
+    background-color: cadetblue;
+}
+
+#p1 {
+    width: 50%;
+    height: 200px;
+    float: right;
+    background-color: cornflowerblue;
+}
