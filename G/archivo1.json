@@ -1,0 +1,11 @@
+{
+    "nombre": "Dayana",
+    "apellido": "Paz",
+    "edad": "20",
+    "mayorDeEdad": true,
+    "telefonos": [
+        "658998656",
+        "659998669"
+    ]
+
+}

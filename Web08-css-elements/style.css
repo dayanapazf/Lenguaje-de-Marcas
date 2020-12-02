@@ -1,17 +1,49 @@
+* {
+    padding: 0;
+}
+
 body {
     width: 80%;
     margin: auto;
 }
 
 #div1 {
-    width: 50%;
-    height: 200px;
     background-color: cadetblue;
+    float: left;
+}
+
+.tarjeta {
+    height: 200px;
+    margin-right: 1%;
+    margin-left: 1%;
+    width: 50%;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 10px;
+    transition-duration: 200ms;
+}
+
+.tarjeta derecha {
+    float: right;
+}
+
+.tarjeta:hover {
+    width: 50%;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 #p1 {
-    width: 50%;
-    height: 200px;
-    float: right;
     background-color: cornflowerblue;
+}
+
+.EnlaceWeb {
+    display: inline-block;
+    min-width: 100px;
+    padding: 5px;
+    background-color: darkcyan;
+    margin-top: 3px;
+    text-align: center;
+    text-decoration: darkslateblue;
+    border-radius: 5px;
 }
